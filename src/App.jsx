@@ -6,8 +6,10 @@ import FileUpload from './components/FileUpload/FileUpload'
 import FormHeading from './components/FormHeading/FormHeading'
 import LinearScale from './components/LinearScale/LinearScale'
 import MCQ from './components/MCQ/MCQ'
+import MultiChoiceGrid from './components/MultiChoiceGrid/MultiChoiceGrid'
 import Paragraph from './components/Paragraph/Paragraph'
 import ShortAnswer from './components/ShortAnswer/ShortAnswer'
+import TickBoxGrid from './components/TickBoxGrid/TickBoxGrid'
 
 function App() {
 
@@ -37,6 +39,15 @@ function App() {
       </div>
       <div className='w-1/3 mx-auto pb-5'>
           <LinearScale></LinearScale>
+      </div>
+      <div className='w-1/3 mx-auto pb-5'>
+          <MultiChoiceGrid></MultiChoiceGrid>
+      </div>
+      <div className='w-1/3 mx-auto pb-5'>
+          <TickBoxGrid></TickBoxGrid>
+      </div>
+      <div className='w-1/3 mx-auto pb-5'>
+        <button className='bg-[#663bb7] hover:bg-[#5225a7] ease-in-out duration-200 text-white font-semibold px-6 py-2 rounded'>Submit</button>
       </div>
     </div>
   )
