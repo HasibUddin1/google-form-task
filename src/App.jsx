@@ -3,6 +3,8 @@ import './App.css'
 import CheckBox from './components/CheckBox/CheckBox'
 import FormHeading from './components/FormHeading/FormHeading'
 import MCQ from './components/MCQ/MCQ'
+import Paragraph from './components/Paragraph/Paragraph'
+import ShortAnswer from './components/ShortAnswer/ShortAnswer'
 
 function App() {
 
@@ -17,6 +19,12 @@ function App() {
       </div>
       <div className='w-1/3 mx-auto pb-5'>
           <CheckBox></CheckBox>
+      </div>
+      <div className='w-1/3 mx-auto pb-5'>
+          <ShortAnswer></ShortAnswer>
+      </div>
+      <div className='w-1/3 mx-auto pb-5'>
+          <Paragraph></Paragraph>
       </div>
     </div>
   )

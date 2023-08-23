@@ -3,7 +3,7 @@
 const CheckBox = () => {
     return (
         <div className="px-8 bg-white rounded-lg py-6">
-            <h1 className="text-2xl">Checkbox <span className="text-red-500">*</span></h1>
+            <h1 className="text-xl">Checkbox <span className="text-red-500">*</span></h1>
             <div className="mt-5">
                 <div>
                     <label className="flex gap-2 text-lg">
