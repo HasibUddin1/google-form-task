@@ -4,6 +4,7 @@ import CheckBox from './components/CheckBox/CheckBox'
 import Dropdown from './components/Dropdown/Dropdown'
 import FileUpload from './components/FileUpload/FileUpload'
 import FormHeading from './components/FormHeading/FormHeading'
+import LinearScale from './components/LinearScale/LinearScale'
 import MCQ from './components/MCQ/MCQ'
 import Paragraph from './components/Paragraph/Paragraph'
 import ShortAnswer from './components/ShortAnswer/ShortAnswer'
@@ -33,6 +34,9 @@ function App() {
       </div>
       <div className='w-1/3 mx-auto pb-5'>
           <FileUpload></FileUpload>
+      </div>
+      <div className='w-1/3 mx-auto pb-5'>
+          <LinearScale></LinearScale>
       </div>
     </div>
   )
