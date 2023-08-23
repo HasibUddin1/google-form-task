@@ -1,6 +1,8 @@
 
 import './App.css'
 import CheckBox from './components/CheckBox/CheckBox'
+import Dropdown from './components/Dropdown/Dropdown'
+import FileUpload from './components/FileUpload/FileUpload'
 import FormHeading from './components/FormHeading/FormHeading'
 import MCQ from './components/MCQ/MCQ'
 import Paragraph from './components/Paragraph/Paragraph'
@@ -25,6 +27,12 @@ function App() {
       </div>
       <div className='w-1/3 mx-auto pb-5'>
           <Paragraph></Paragraph>
+      </div>
+      <div className='w-1/3 mx-auto pb-5'>
+          <Dropdown></Dropdown>
+      </div>
+      <div className='w-1/3 mx-auto pb-5'>
+          <FileUpload></FileUpload>
       </div>
     </div>
   )
