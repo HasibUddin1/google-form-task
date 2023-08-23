@@ -21,7 +21,7 @@ const LinearScale = () => {
                         value="1"
                         checked={selectedValue === '1'}
                         onChange={handleRadioChange}
-                        className="cursor-pointer"
+                        className="cursor-pointer w-[20px] h-[20px]"
                     />
                 </label>
                 <label className="flex flex-col items-center gap-3 text-lg">
@@ -31,7 +31,7 @@ const LinearScale = () => {
                         value="2"
                         checked={selectedValue === '2'}
                         onChange={handleRadioChange}
-                        className="cursor-pointer"
+                        className="cursor-pointer w-[20px] h-[20px]"
                     />
                 </label>
                 <label className="flex flex-col items-center gap-3 text-lg">
@@ -41,7 +41,7 @@ const LinearScale = () => {
                         value="3"
                         checked={selectedValue === '3'}
                         onChange={handleRadioChange}
-                        className="cursor-pointer"
+                        className="cursor-pointer w-[20px] h-[20px]"
                     />
                 </label>
                 <label className="flex flex-col items-center gap-3 text-lg">
@@ -51,7 +51,7 @@ const LinearScale = () => {
                         value="4"
                         checked={selectedValue === '4'}
                         onChange={handleRadioChange}
-                        className="cursor-pointer"
+                        className="cursor-pointer w-[20px] h-[20px]"
                     />
                 </label>
                 <label className="flex flex-col items-center gap-3 text-lg">
@@ -61,7 +61,7 @@ const LinearScale = () => {
                         value="5"
                         checked={selectedValue === '5'}
                         onChange={handleRadioChange}
-                        className="cursor-pointer"
+                        className="cursor-pointer w-[20px] h-[20px]"
                     />
                 </label>
                 <p>Best</p>
